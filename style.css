@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(netflixbackground.jpg);
+    height: 644px;
+    width: 100%;
+    background-position: 44% 69%;
+    background-size: max(1200px, 100vw);
+    position: relative;
+    filter: brightness(50%);
+    border-bottom: 10px solid rgb(72, 70, 70);
+}
+
+.paddingtop{
+    padding-top: 20px;
+}
+
+
+.one {
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.66;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav .img {
+    color: red;
+    position: relative;
+    width: max(130px, 1.5rem);
+    z-index: 10;
+    filter: brightness(1.5) saturate(1.5);
+}
+
+.extra {
+    display: flex;
+    gap: 10px;
+}
+
+.signin {
+    position: relative;
+    z-index: 18;
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+select {
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 3px solid white;
+    font-size: 15px;
+    padding: 7px 8px;
+}
+
+option {
+    color: black;
+    font-weight: 400;
+
+}
+
+
+.p1l1 {
+    position: relative;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: calc(10%);
+    font-size: 40px;
+    font-weight: 900;
+    z-index: 10;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 10px;
+}
+
+.p1l2 {
+    position: relative;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 6px;
+}
+
+.btn {
+    background-color: red;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.login input {
+    position: relative;
+    z-index: 10;
+    padding: 7px 101px 8px 14px;
+    margin: auto;
+    font-size: medium;
+    color: white;
+    font-weight: 900;
+    border-radius: 3px;
+    background-color: rgba(248, 243, 243, 0.081);
+    border: 1px solid white;
+}
+
+
+
+.seperation{
+    border-bottom: 10px solid rgb(72, 70, 70);
+}
+
+.main2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    
+}
+
+.line{
+    color: white;
+    padding: 35px 0px;
+    
+}
+
+.p2l1{
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.p2l2{
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+
+.media1{
+    position: relative;
+}
+.media1 img{
+    position: relative;
+    z-index: 5;
+    width: 555px;
+}
+
+.media1 video{
+    position: absolute;
+    right: 0px;
+    top: 55px;
+    width: 500px;
+}
+@media screen and (max-width: 1100px) {
+    .p1l1{
+        font-size: 30px;
+        
+    }
+    .p1l2{
+        font-size: 20px;
+       
+    }
+    .main2{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }    
+    .r{
+        flex-direction: column;
+    }
+    .p2l1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .p2l2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .media1 img{
+        width: 300px;
+    }
+    .media1 video{
+        width: 300px;
+    }
+}
+
+.main3{
+    position: relative;
+    max-width: 80vw;
+    margin: auto;
+}
+.main3 .head{
+   text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+    margin: auto;
+}
+
+.main3 .boxes{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.faq{
+    color: white;
+    background-color: grey;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1100px){
+    
+    .main3 .head{
+        font-size: 30px;
+    }
+}
+
+
+
